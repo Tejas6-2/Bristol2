@@ -33,7 +33,11 @@
               </block>
             </value>
             <next>
-              <block type="movement_right" id="489"></block>
+              <block type="movement_right" id="489">
+                <next>
+                  <block type="movement_stutter" id="564"></block>
+                </next>
+              </block>
             </next>
           </block>
         </statement>
@@ -61,7 +65,11 @@
               </block>
             </value>
             <next>
-              <block type="movement_left" id="525"></block>
+              <block type="movement_left" id="525">
+                <next>
+                  <block type="movement_stutter" id="574"></block>
+                </next>
+              </block>
             </next>
           </block>
         </statement>
